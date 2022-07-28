@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'FirebaseProject' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for FirebaseProject
+pod 'Alamofire'
+pod 'Firebase'
+pod 'FirebaseCore'
+pod 'FirebaseDatabase'
+pod 'FirebaseAnalytics'
+pod 'FirebaseCrashlytics'
+pod 'FirebaseAuth'
+pod 'GoogleSignIn'
+pod 'GoogleUtilities'
+pod 'SDWebImage'
+pod 'FBSDKLoginKit'
+
+end
